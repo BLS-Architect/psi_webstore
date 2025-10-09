@@ -1,20 +1,12 @@
-                <div class="filter-group">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSi Webstore Catalog</title>
 
-                    <label for="filterSearch">Search</label>
-
-                    <input id="filterSearch" type="search" placeholder="Search by title, publisher, or SKU">
-
-                </div>
-
-                <div class="filter-group">
-
-                    <label for="filterPublisher">Publisher</label>
-
-                    <select id="filterPublisher"></select>
-
-                </div>
-
-        :root {
+    <style>
+    :root {
 
             --psi-red: #F14C32;
 
@@ -1260,6 +1252,13 @@
             </div>
 
             <div class="filters-toolbar">
+                <div class="filter-group">
+
+                    <label for="filterSearch">Search</label>
+
+                    <input id="filterSearch" type="search" placeholder="Search by title, publisher, or SKU">
+
+                </div>
 
                 <div class="filter-group">
 
@@ -2728,11 +2727,6 @@
                         <h2 class="product-title">${product.title}</h2>
 
                         <div class="price-row">
-
-                            <label for="filterSearch">Search</label>
-
-                            <input id="filterSearch" type="search" placeholder="Search by title, publisher, or SKU">
-
                             <span class="your-cost">${formatCurrency(product.price)}</span>
 
                             <span class="msrp">MSRP ${formatCurrency(product.msrp)}</span>
