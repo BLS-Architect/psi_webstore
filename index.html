@@ -2537,7 +2537,7 @@
 
         class Cart {
 
-            constructor(minimumOrder = 850) {
+            constructor(minimumOrder = 750) {
 
                 this.minimumOrder = minimumOrder;
 
@@ -3659,7 +3659,7 @@
 
             }
 
-            const minimumOrder = (catalog.company && catalog.company.minimumOrder) || 850;
+            const minimumOrder = (catalog.company && catalog.company.minimumOrder) || 750;
 
             cartInstance = new Cart(minimumOrder);
 
@@ -3689,7 +3689,7 @@
 
                 cartInstance.setCatalogProducts(catalog.products);
 
-                cartInstance.minimumOrder = (catalog.company && catalog.company.minimumOrder) || 850;
+                cartInstance.minimumOrder = (catalog.company && catalog.company.minimumOrder) || 750;
 
                 Object.assign(filterState, FILTER_DEFAULTS);
 
