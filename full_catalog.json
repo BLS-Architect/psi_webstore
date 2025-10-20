@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "PSi",
-    "minimumOrder": 850,
+    "minimumOrder": 750,
     "currency": "USD"
   },
   "categories": [
